@@ -4,3 +4,5 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=DemExt_python-project-49&metric=bugs)](https://sonarcloud.io/summary/new_code?id=DemExt_python-project-49)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=DemExt_python-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=DemExt_python-project-49)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=DemExt_python-project-49&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=DemExt_python-project-49)
+
+https://asciinema.org/connect/51ae9831-a287-414b-9d9a-6a42073c1c36
