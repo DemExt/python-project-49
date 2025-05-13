@@ -8,3 +8,4 @@
 https://asciinema.org/connect/51ae9831-a287-414b-9d9a-6a42073c1c36 - аскинема игры чет/нечет
 https://asciinema.org/a/by78W5j0zSBC2EVwm1LAa4ZQd - аскинема игры калькулятор
 https://asciinema.org/a/jT7wAV5wq1mXDWHhS5Js15fbu - аскинема игры НОД
+https://asciinema.org/a/rK6LK7UC9JyzAkthqqKzEKomJ - аскинема игры Арифметическая прогрессия
