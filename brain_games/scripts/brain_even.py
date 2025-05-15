@@ -3,11 +3,12 @@ from random import randint
 
 def even():
 
-    print('Answer "yes" if the number is even, otherwise answer "no".')
+    #print('Answer "yes" if the number is even, otherwise answer "no".')
     
     count = 0
     while count != 3:
 
+        print('Answer "yes" if the number is even, otherwise answer "no".')
         n = randint(1, 100)
         print('Question:', n)
         ans = input()
