@@ -1,6 +1,7 @@
 # from .brain_games import welcome_user
 
 def welcome_user():
+    print('Welcome to the Brain Games!')
     name = ''
     while name == '':
         print('May I have your name? ', end='')
@@ -8,12 +9,12 @@ def welcome_user():
     print('Hello, ', name, '!', sep='')
 
 
-def greet():    
-    print('Welcome to the Brain Games!')
+#def greet():    
+    #print('Welcome to the Brain Games!')
     
 
 def main():
-    greet()
+    #greet()
     welcome_user()
 
 

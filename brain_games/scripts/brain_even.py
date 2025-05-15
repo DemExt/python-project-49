@@ -8,7 +8,7 @@ def even():
     count = 0
     while count != 3:
 
-        print('Answer "yes" if the number is even, otherwise answer "no".')
+        print('Answer "yes" if the number is even, otherwise answer "no".11')
         n = randint(1, 100)
         print('Question:', n)
         ans = input()
@@ -37,3 +37,4 @@ def even():
 
 if __name__ == "__even__":
     even()
+even()
