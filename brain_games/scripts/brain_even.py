@@ -30,14 +30,18 @@ def even():
                 print("'yes' is wrong answer ;(. " 
                 "Correct answer was 'no'. Let's try again, ", name, "!")
                 count = 0
+                break
             elif ans == 'no' and n % 2 == 1:
                 print('Correct!')
                 count += 1
             elif ans == 'no' and n % 2 == 0:
                 print("'no' is wrong answer ;(. " 
-                "Correct answer was 'yes'. Let's try again, ", name, "!")
+                "Correct answer was 'yes'. Let's try again, ", name, "!", sep='')
                 count = 0
-    print('Congratulations, ', name, '!', sep='')
+                break
+    if count == 3:
+      
+        print('Congratulations, ', name, '!', sep='')
         
 
 if __name__ == "__even__":
