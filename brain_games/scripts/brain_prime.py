@@ -1,7 +1,14 @@
+# from brain_games import main
 from random import randint
 
 
 def prime():
+    print('Welcome to the Brain Games!')
+    name = ''
+    while name == '':
+        print('May I have your name? ', end='')
+        name = input()
+    print('Hello, ', name, '!', sep='')
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     count = 0
     num = ''
@@ -27,9 +34,9 @@ def prime():
                 count += 1
             elif ans != num:
                 print("'no' is wrong answer ;(. " 
-                "Correct answer was 'yes'. Let's try again, Bill!")
+                "Correct answer was 'yes'. Let's try again, ", name, "!")
                 count = 0
-    print('Congratulations, Sam!')
+    print('Congratulations, ', name, '!')
 
 
 if __name__ == "__prime__":

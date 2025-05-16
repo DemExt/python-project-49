@@ -1,6 +1,6 @@
 # from .brain_games import welcome_user
 
-def welcome_user():
+def main():
     print('Welcome to the Brain Games!')
     name = ''
     while name == '':
@@ -9,18 +9,14 @@ def welcome_user():
     print('Hello, ', name, '!', sep='')
 
 
-#def greet():    
-    #print('Welcome to the Brain Games!')
+# def greet():    
+    # print('Welcome to the Brain Games!')
     
 
-def main():
-    #greet()
-    welcome_user()
+# def main():
+    # greet()
+    # welcome_user()
 
 
 if __name__ == "__main__":
     main()
-    
-
-
-

@@ -1,7 +1,14 @@
+# from brain_games import main
 from random import randint
 
 
 def progression():
+    print('Welcome to the Brain Games!')
+    name = ''
+    while name == '':
+        print('May I have your name? ', end='')
+        name = input()
+    print('Hello, ', name, '!', sep='')
     print('What number is missing in the progression?')
     count = 0
 
@@ -24,9 +31,9 @@ def progression():
             print('Correct!')
             count += 1
         if ans != miss:
-            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, Sam!")
+            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!")
             count = 0
-    print('Congratulations, Sam!')
+    print('Congratulations, ', name, '!')
 
 
 if __name__ == "__progression__":

@@ -1,7 +1,14 @@
+# from brain_games import main
 from random import randint
 
 
 def gcd():
+    print('Welcome to the Brain Games!')
+    name = ''
+    while name == '':
+        print('May I have your name? ', end='')
+        name = input()
+    print('Hello, ', name, '!', sep='')
     print('Find the greatest common divisor of given numbers.')
     count = 0
 
@@ -21,9 +28,9 @@ def gcd():
             print('Correct!')
             count += 1
         if ans != deli:
-            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, Sam!")
+            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!")
             count = 0
-    print('Congratulations, Sam!')
+    print('Congratulations, ', name, '!')
 
 
 if __name__ == "__gcd__":

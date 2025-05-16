@@ -1,14 +1,19 @@
+# from brain_games import main
 from random import randint
 
 
 def even():
-
-    #print('Answer "yes" if the number is even, otherwise answer "no".')
+    print('Welcome to the Brain Games!')
+    name = ''
+    while name == '':
+        print('May I have your name? ', end='')
+        name = input()
+    print('Hello, ', name, '!', sep='')
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     
     count = 0
     while count != 3:
-
-        print('Answer "yes" if the number is even, otherwise answer "no".11')
+        
         n = randint(1, 100)
         print('Question:', n)
         ans = input()
@@ -23,18 +28,17 @@ def even():
                 count += 1
             elif ans == 'yes' and n % 2 == 1:
                 print("'yes' is wrong answer ;(. " 
-                "Correct answer was 'no'. Let's try again, Bill!")
+                "Correct answer was 'no'. Let's try again, ", name, "!")
                 count = 0
             elif ans == 'no' and n % 2 == 1:
                 print('Correct!')
                 count += 1
             elif ans == 'no' and n % 2 == 0:
                 print("'no' is wrong answer ;(. " 
-                "Correct answer was 'yes'. Let's try again, Bill!")
+                "Correct answer was 'yes'. Let's try again, ", name, "!")
                 count = 0
-    print('Congratulations, Sam!')
+    print('Congratulations, ', name, '!')
         
 
 if __name__ == "__even__":
     even()
-even()

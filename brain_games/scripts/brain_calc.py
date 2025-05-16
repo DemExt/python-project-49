@@ -1,7 +1,14 @@
+# from brain_games import main
 from random import choice, randint
 
 
 def calc():
+    print('Welcome to the Brain Games!')
+    name = ''
+    while name == '':
+        print('May I have your name? ', end='')
+        name = input()
+    print('Hello, ', name, '!', sep='')
     print('What is the result of the expression?')
     count = 0
 
@@ -25,16 +32,10 @@ def calc():
             print('Correct!')
             count += 1
         if ans != n:
-            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, Sam!")
+            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!")
             count = 0
-    print('Congratulations, Sam!')
+    print('Congratulations, ', name, '!')
 
 
 if __name__ == "__calc__":
     calc()
-
-
-        
-        
-        
-    
