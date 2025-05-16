@@ -28,7 +28,7 @@ def even():
                 count += 1
             elif ans == 'yes' and n % 2 == 1:
                 print("'yes' is wrong answer ;(. " 
-                "Correct answer was 'no'. Let's try again, ", name, "!")
+                "Correct answer was 'no'. Let's try again, ", name, "!", sep='')
                 count = 0
                 break
             elif ans == 'no' and n % 2 == 1:
