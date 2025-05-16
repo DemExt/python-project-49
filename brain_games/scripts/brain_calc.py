@@ -17,7 +17,7 @@ def calc():
         sym = '+-*'
         operator = choice(sym)
         x, y = randint(1, 100), randint(1, 100)
-        print('Question: ', x, operator, y)
+        print('Question:', x, operator, y)
         if operator == '+':
             n = x + y
         elif operator == '-':
@@ -32,12 +32,11 @@ def calc():
             print('Correct!')
             count += 1
         if ans != n:
-            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!")
+            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!", sep='')
             count = 0
     print('Congratulations, ', name, '!', sep='')
 
 
 if __name__ == "__calc__":
-    calc()
-    
+    calc()  
     
