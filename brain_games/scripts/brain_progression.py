@@ -14,10 +14,12 @@ def progression():
 
     while count != 3:
         x = randint(1, 10)
-        y = randint(1, 10)
+        
         step = randint(1, 10)
         progr = [x]
-        for i in range(9):
+        length_prog = randint(5,10)
+        y = randint(1, length_prog)
+        for i in range(length_prog):
             x += step
             progr.append(x)
         miss = progr[y]
@@ -31,7 +33,7 @@ def progression():
             print('Correct!')
             count += 1
         if ans != miss:
-            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!", sep='')
+            print(ans, " is wrong answer ;(. Correct answer was ",miss,". Let's try again, ", name, "!", sep='')
             count = 0
             break
 
