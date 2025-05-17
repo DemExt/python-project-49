@@ -33,7 +33,11 @@ def progression():
         if ans != miss:
             print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!", sep='')
             count = 0
-    print('Congratulations, ', name, '!', sep='')
+            break
+
+    if count == 3:
+
+        print('Congratulations, ', name, '!', sep='')
 
 
 if __name__ == "__progression__":

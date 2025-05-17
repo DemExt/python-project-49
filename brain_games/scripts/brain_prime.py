@@ -28,6 +28,7 @@ def prime():
         if ans != 'yes' and ans != 'no':
             print('you must answer "yes"/"no"')
             count = 0
+            break
         else:
             if ans == num:
                 print('Correct!')
@@ -36,7 +37,11 @@ def prime():
                 print("'no' is wrong answer ;(. " 
                 "Correct answer was 'yes'. Let's try again, ", name, "!", sep='')
                 count = 0
-    print('Congratulations, ', name, '!', sep='')
+                break
+
+    if count == 3:
+
+        print('Congratulations, ', name, '!', sep='')
 
 
 if __name__ == "__prime__":
