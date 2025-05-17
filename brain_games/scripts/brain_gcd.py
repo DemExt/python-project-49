@@ -14,7 +14,7 @@ def gcd():
 
     while count != 3:
         x, y = randint(1, 100), randint(1, 100)
-        print('Question: ', x, y)
+        print('Question:', x, y)
         n = min(x, y)
         deli = 1
         for i in range(1, n + 1):
@@ -22,7 +22,7 @@ def gcd():
                 deli = i
         ans = int(input())
     
-        print('Your answer: ', ans)
+        print('Your answer:', ans)
 
         if ans == deli:
             print('Correct!')

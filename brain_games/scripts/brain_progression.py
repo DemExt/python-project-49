@@ -22,10 +22,10 @@ def progression():
             progr.append(x)
         miss = progr[y]
         progr[y] = '..'
-        print('Question: ', *progr)
+        print('Question:', *progr)
         ans = int(input())
 
-        print('Your answer: ', ans)
+        print('Your answer:', ans)
 
         if ans == miss:
             print('Correct!')

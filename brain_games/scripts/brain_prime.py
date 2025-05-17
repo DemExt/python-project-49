@@ -15,7 +15,7 @@ def prime():
 
     while count != 3:
         x = randint(1, 100)
-        print('Question: ', x)
+        print('Question:', x)
         ans = input()
         print('Your answer:', ans)
         n = x + 1
