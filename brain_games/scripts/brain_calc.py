@@ -32,7 +32,8 @@ def calc():
             print('Correct!')
             count += 1
         if ans != n:
-            print("'ans' is wrong answer ;(. Correct answer was 'n'. Let's try again, ", name, "!", sep='')
+            print("'ans' is wrong answer ;(. Correct answer ")
+            print("was 'n'. Let's try again, ", name, "!", sep='')
             count = 0
             break
 

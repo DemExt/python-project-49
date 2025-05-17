@@ -17,7 +17,7 @@ def progression():
         
         step = randint(1, 10)
         progr = [x]
-        length_prog = randint(5,10)
+        length_prog = randint(5, 10)
         y = randint(1, length_prog)
         for i in range(length_prog):
             x += step
@@ -33,7 +33,8 @@ def progression():
             print('Correct!')
             count += 1
         if ans != miss:
-            print(ans, " is wrong answer ;(. Correct answer was ",miss,". Let's try again, ", name, "!", sep='')
+            print(ans, " is wrong answer ;(. Correct answer ")
+            print("was ", miss, ". Let's try again, ", name, "!", sep='')
             count = 0
             break
 

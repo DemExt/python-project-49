@@ -34,8 +34,8 @@ def prime():
                 print('Correct!')
                 count += 1
             elif ans != num:
-                print("'no' is wrong answer ;(. " 
-                "Correct answer was 'yes'. Let's try again, ", name, "!", sep='')
+                print("'no' is wrong answer ;(. Correct answer ")
+                print("was 'yes'. Let's try again, ", name, "!", sep='')
                 count = 0
                 break
 

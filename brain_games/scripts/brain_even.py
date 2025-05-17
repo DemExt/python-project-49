@@ -27,16 +27,16 @@ def even():
                 print('Correct!')
                 count += 1
             elif ans == 'yes' and n % 2 == 1:
-                print("'yes' is wrong answer ;(. " 
-                "Correct answer was 'no'. Let's try again, ", name, "!", sep='')
+                print("'yes' is wrong answer ;(. Correct answer ", end='') 
+                print("was 'no'. Let's try again, ", name, "!", sep='')
                 count = 0
                 break
             elif ans == 'no' and n % 2 == 1:
                 print('Correct!')
                 count += 1
             elif ans == 'no' and n % 2 == 0:
-                print("'no' is wrong answer ;(. " 
-                "Correct answer was 'yes'. Let's try again, ", name, "!", sep='')
+                print("'no' is wrong answer ;(. Correct answer ", end='') 
+                print("was 'yes'. Let's try again, ", name, "!", sep='')
                 count = 0
                 break
     if count == 3:
