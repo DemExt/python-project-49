@@ -14,7 +14,7 @@ def prime():
     num = ''
 
     while count != 3:
-        x = randint(1, 100) # NOSONAR
+        x = randint(1, 100)  # NOSONAR
         print('Question:', x)
         ans = input()
         print('Your answer:', ans)

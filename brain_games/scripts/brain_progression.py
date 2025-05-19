@@ -13,12 +13,12 @@ def progression():
     count = 0
 
     while count != 3:
-        x = randint(1, 10) # NOSONAR
+        x = randint(1, 10)  # NOSONAR
         
-        step = randint(1, 10) # NOSONAR
+        step = randint(1, 10)  # NOSONAR
         progr = [x]
-        length_prog = randint(5, 10) # NOSONAR
-        y = randint(1, length_prog) # NOSONAR
+        length_prog = randint(5, 10)  # NOSONAR
+        y = randint(1, length_prog)  # NOSONAR
         for i in range(length_prog):
             x += step
             progr.append(x)

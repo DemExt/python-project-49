@@ -15,8 +15,8 @@ def calc():
     while count != 3:
 
         sym = '+-*'
-        operator = choice(sym) # NOSONAR
-        x, y = randint(1, 100), randint(1, 100) # NOSONAR
+        operator = choice(sym)  # NOSONAR
+        x, y = randint(1, 100), randint(1, 100)  # NOSONAR
         print('Question:', x, operator, y)
         if operator == '+':
             n = x + y
