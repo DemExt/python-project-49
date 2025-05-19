@@ -14,7 +14,7 @@ def even():
     count = 0
     while count != 3:
         
-        n = randint(1, 100)
+        n = randint(1, 100) # NOSONAR
         print('Question:', n)
         ans = input()
         print('Your answer:', ans)

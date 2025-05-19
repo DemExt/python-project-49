@@ -13,7 +13,7 @@ def gcd():
     count = 0
 
     while count != 3:
-        x, y = randint(1, 100), randint(1, 100)
+        x, y = randint(1, 100), randint(1, 100) # NOSONAR
         print('Question:', x, y)
         n = min(x, y)
         deli = 1
